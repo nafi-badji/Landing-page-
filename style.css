@@ -1,0 +1,332 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-sizing: border-box;
+}
+.link-navbar {
+  padding: 4rem;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.link-navbar .link-items {
+  color: black;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+/* -----------------------------partie main----------------------------- */
+.main-image {
+  background-image: url(image.jpg);
+  background-size: cover;
+  height: 40rem;
+  text-align: center;
+  padding-top: 5rem;
+}
+.more {
+  width: 8rem;
+}
+.logo-items {
+  background-color: white;
+  width: 10rem;
+  border-radius: 15px;
+  margin: auto;
+  margin-top: 10rem;
+  
+}
+.title {
+  background-color: rgb(45, 44, 44);
+  width: 20rem;
+  margin: auto;
+  margin-top: 2rem;
+  padding: 1.5rem;
+}
+.title h3 {
+  font-size: 20px;
+  color: white;
+  font-weight: normal;
+}
+.para p {
+  color: white;
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+/* -------------------------partie section-formation------------------- */
+.formation .items-formation {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  align-items: center;
+  background-color: white;
+  padding: 8rem;
+  margin-left: 7rem;
+  height: 10rem;
+}
+.font {
+  border: 2px solid darkcyan;
+  width: 9rem;
+  height: 9rem;
+  border-radius: 50%;
+}
+.text {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.text h4 {
+  margin-right: 6rem;
+  font-weight: bold;
+}
+.fun {
+  position: relative;
+  top: 3rem;
+  left: 3rem;
+}
+/* -------------------parite section-box-------------------- */
+.section-box {
+  height: 250px;
+  background-color: rgb(233, 231, 231);
+}
+.titre-niveau1 h1 {
+  text-align: center;
+  margin-top: 4rem;
+  padding-top: 2rem;
+  font-size: 35px;
+}
+.gender {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  margin-top: 5rem;
+}
+.gender-items {
+  color: #000;
+  font-weight: 400px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+}
+
+/*--------------- partie section-flexbox--------------- */
+
+.container-flex {
+  height: 37rem;
+}
+.flexbox {
+  display: flex;
+  flex-wrap: wrap;
+}
+.flexbox img {
+  width: 25%;
+}
+
+/* --------------------------------partie progressbar------------------ */
+
+.progressbar {
+  height: 25em;
+}
+.titre-2 h1 {
+  text-align: center;
+  margin-top: 4rem;
+  font-size: 35px;
+}
+.parag p {
+  text-align: center;
+  margin-top: 2rem;
+}
+/* trfftyfyugiyg */
+
+.progress-container {
+  display: flex;
+  justify-content: center;
+  gap: 10rem;
+  margin-top: 4rem;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+.pratic {
+  display: flex;
+  justify-content: space-between;
+  width: 29rem;
+  padding: 10px;
+}
+.info h4 {
+  letter-spacing: 1px;
+  margin-top: 40px;
+  margin-bottom: 5px;
+}
+.info p {
+  margin-left: 35rem;
+  margin-bottom: 5px;
+}
+.bar {
+  background: gainsboro;
+  width: 29rem;
+  height: 14px;
+  border-radius: 5px;
+}
+.bar div {
+  height: 14px;
+  border-radius: 5px;
+  width: 50%;
+  background: rgba(95, 110, 110, 0.974);
+}
+.bar .div1 {
+  width: 100%;
+}
+.bar .div2 {
+  width: 80%;
+}
+.bar .div3 {
+  width: 90%;
+}
+.bar .div4 {
+  width: 75%;
+}
+/* ---------------------partie TEAM--------------------- */
+
+.team {
+  height: 50rem;
+  background: rgba(95, 110, 110, 0.974);
+  color: white;
+}
+.note h1 {
+  text-align: center;
+  margin-top: 5rem;
+  padding-top: 4rem;
+  font-size: 25px;
+  font-weight: normal;
+}
+.photo {
+  margin-top: 8rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
+.team-item {
+  display: flex;
+  justify-content: center;
+}
+.team-item:hover {
+  /* height: 24rem; */
+  transform: scale(1.1);
+}
+/*------------------------------------ partie avant foot-------------------------------- */
+
+.bakeli-child {
+  /* border: 3px solid sienna; */
+  height: 24rem;
+  text-align: center;
+}
+.bakeli-image img {
+  margin-: 15rem;
+  width: 5rem;
+}
+.bakeli-image {
+  padding-top: 2rem;
+}
+.bakeli-child p {
+  padding-top: 7rem;
+  font-size: 14px;
+}
+.span {
+  font-weight: bold;
+  margin-top: 4rem;
+  font-size: 15px;
+}
+.pied-page {
+  /* border: 4px solid black; */
+  height: 40rem;
+  background: gainsboro;
+  text-align: center;
+}
+#inf h1 {
+  padding-top: 2rem;
+  font-size: 14px;
+}
+.focus {
+  display: flex;
+  justify-content: center;
+  padding-top: 5rem;
+  gap: 5rem;
+}
+.focus-items p {
+  line-height: 25px;
+}
+.contact{
+  padding-top: 9rem;
+  font-size: 10px;
+}
+.copie{
+  padding-top: 9rem;
+  font-size: 10px;
+}
+@media screen and (max-width: 968px) {
+  body{
+    border: 1px solid;
+    width: 700px;
+  }
+  .link-navbar .link-items{
+    font-size: 14px;
+  }
+  .formation .items-formation {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    margin-top: 5rem;
+    gap: 5px;
+    margin-left: 5rem;
+  }
+  .font{
+    margin-top: 2rem;
+  }
+  .progressbar{
+    height: 500px;
+    margin-top: -20rem;
+  }
+  .titre-2 h1 {
+   /* margin-top: 10rem; */
+  }
+  .progress-container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -30rem;
+    gap: 2rem;
+    margin: 20px;
+  }
+  .bar{
+    width: 50%;
+  }
+  .pratic{
+    width: 50%;
+  }
+  .team{
+    height: 80rem;
+    margin: 15px;
+  }
+  .photo {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+}
